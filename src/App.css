@@ -36,3 +36,50 @@
     transform: rotate(360deg);
   }
 }
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+  .App-header {
+    font-size: calc(8px + 2vmin);
+  }
+  .App-logo {
+    height: 35vmin;
+  }
+}
+
+@media (max-width: 992px) {
+  .App-header {
+    font-size: calc(7px + 2vmin);
+  }
+  .App-logo {
+    height: 30vmin;
+  }
+}
+
+@media (max-width: 768px) {
+  .App-header {
+    font-size: calc(6px + 2vmin);
+  }
+  .App-logo {
+    height: 25vmin;
+  }
+}
+
+@media (max-width: 576px) {
+  .App-header {
+    font-size: calc(5px + 2vmin);
+    padding: 20px;
+  }
+  .App-logo {
+    height: 20vmin;
+  }
+}
+
+@media (max-width: 375px) {
+  .App-header {
+    font-size: calc(4px + 2vmin);
+  }
+  .App-logo {
+    height: 15vmin;
+  }
+}
